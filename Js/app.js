@@ -1,8 +1,3 @@
-//Rutina mensaje alerta página inicial.
-alert('Bienvenidos a mi sitio, espero sus comentarios');
-let r = new Date();
-document.getElementById("Fecha").innerHTML=r;
-
 //Función cambia color de fondo.
 
 function generarNuevoColor(){
@@ -58,3 +53,9 @@ else
 document.fgColor=colortexto
 document.bgColor=colorin
 document.write('<body bgcolor="' + colorin + '" text="' + colortexto + '">')
+
+//Data Table
+
+$(document).ready(function () {
+   $('#example').DataTable();
+ });
